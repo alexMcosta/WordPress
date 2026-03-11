@@ -1,0 +1,9 @@
+version: "1.0"
+profile:
+  name: qodana.recommended
+
+script:
+  name: php-migration
+  parameters:
+    fromLevel: 8.3
+    toLevel: 8.5
