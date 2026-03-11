@@ -8,3 +8,9 @@ profile:
   name: qodana.recommended
 include:
   - name: CheckDependencyLicenses
+
+script:
+  name: php-migration
+  parameters:
+    fromLevel: 7.9
+    toLevel: 8.5
